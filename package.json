@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "yarn jest"
+    "test": "yarn jest",
+    "cypress": "cypress open"
   },
   "dependencies": {
+    "cypress": "^13.3.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
