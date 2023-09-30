@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-      <button
+      <button className={styles.card} style = {{fontSize: 40}}
       onClick={() => router.push("/signup")}
       >
           Go to Signup Page

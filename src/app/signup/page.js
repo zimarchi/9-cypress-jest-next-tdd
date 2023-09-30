@@ -47,6 +47,11 @@ export default function SignUp() {
           Submit
         </button>
       </form>
+      <button
+      onClick={() => router.push("/")}
+      >
+          Go to welcome page
+        </button>
     </main>
   );
 }
